@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property NSMutableData *receivedData;
+@property (weak, nonatomic) IBOutlet UITextField *textToTranslate;
+@property (weak, nonatomic) IBOutlet UILabel *translatedText;
+@property (strong, nonatomic) IBOutlet UITapGestureRecognizer *tap;
+
+-(IBAction)getTranslateButton:(id)sender;
 
 @end
 

@@ -13,6 +13,12 @@
 		2BF3F97F1E356A8700044434 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF3F97D1E356A8700044434 /* Main.storyboard */; };
 		2BF3F9811E356A8700044434 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BF3F9801E356A8700044434 /* Assets.xcassets */; };
 		2BF3F9841E356A8700044434 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF3F9821E356A8700044434 /* LaunchScreen.storyboard */; };
+		2BF3F98D1E356AA700044434 /* GifsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF3F98C1E356AA700044434 /* GifsViewController.m */; };
+		2BF3F9901E356ABD00044434 /* DesignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF3F98F1E356ABD00044434 /* DesignViewController.m */; };
+		2BF3F9931E356D9F00044434 /* DesignCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF3F9921E356D9F00044434 /* DesignCollectionViewCell.m */; };
+		2BF3F9B81E3636F200044434 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF3F9B71E3636F200044434 /* UIImage+animatedGIF.m */; };
+		2BF3F9BF1E36429800044434 /* GifsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF3F9BE1E36429800044434 /* GifsCollectionViewCell.m */; };
+		2BF3F9C81E364A5200044434 /* gifAssets in Resources */ = {isa = PBXBuildFile; fileRef = 2BF3F9C71E364A5200044434 /* gifAssets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,17 @@
 		2BF3F9801E356A8700044434 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BF3F9831E356A8700044434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BF3F9851E356A8700044434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BF3F98B1E356AA700044434 /* GifsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifsViewController.h; sourceTree = "<group>"; };
+		2BF3F98C1E356AA700044434 /* GifsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifsViewController.m; sourceTree = "<group>"; };
+		2BF3F98E1E356ABD00044434 /* DesignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignViewController.h; sourceTree = "<group>"; };
+		2BF3F98F1E356ABD00044434 /* DesignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignViewController.m; sourceTree = "<group>"; };
+		2BF3F9911E356D9F00044434 /* DesignCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignCollectionViewCell.h; sourceTree = "<group>"; };
+		2BF3F9921E356D9F00044434 /* DesignCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignCollectionViewCell.m; sourceTree = "<group>"; };
+		2BF3F9B71E3636F200044434 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		2BF3F9B91E36370500044434 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		2BF3F9BD1E36429800044434 /* GifsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifsCollectionViewCell.h; sourceTree = "<group>"; };
+		2BF3F9BE1E36429800044434 /* GifsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifsCollectionViewCell.m; sourceTree = "<group>"; };
+		2BF3F9C71E364A5200044434 /* gifAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = gifAssets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +75,26 @@
 		2BF3F9731E356A8700044434 /* SelectoObjCTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				2BF3F9C71E364A5200044434 /* gifAssets */,
+				2BF3F9B91E36370500044434 /* UIImage+animatedGIF.h */,
+				2BF3F9B71E3636F200044434 /* UIImage+animatedGIF.m */,
 				2BF3F9771E356A8700044434 /* AppDelegate.h */,
 				2BF3F9781E356A8700044434 /* AppDelegate.m */,
 				2BF3F97A1E356A8700044434 /* ViewController.h */,
 				2BF3F97B1E356A8700044434 /* ViewController.m */,
 				2BF3F97D1E356A8700044434 /* Main.storyboard */,
+				2BF3F9BD1E36429800044434 /* GifsCollectionViewCell.h */,
+				2BF3F9BE1E36429800044434 /* GifsCollectionViewCell.m */,
 				2BF3F9801E356A8700044434 /* Assets.xcassets */,
 				2BF3F9821E356A8700044434 /* LaunchScreen.storyboard */,
 				2BF3F9851E356A8700044434 /* Info.plist */,
 				2BF3F9741E356A8700044434 /* Supporting Files */,
+				2BF3F98B1E356AA700044434 /* GifsViewController.h */,
+				2BF3F98C1E356AA700044434 /* GifsViewController.m */,
+				2BF3F98E1E356ABD00044434 /* DesignViewController.h */,
+				2BF3F98F1E356ABD00044434 /* DesignViewController.m */,
+				2BF3F9911E356D9F00044434 /* DesignCollectionViewCell.h */,
+				2BF3F9921E356D9F00044434 /* DesignCollectionViewCell.m */,
 			);
 			path = SelectoObjCTestTask;
 			sourceTree = "<group>";
@@ -140,6 +168,7 @@
 			files = (
 				2BF3F9841E356A8700044434 /* LaunchScreen.storyboard in Resources */,
 				2BF3F9811E356A8700044434 /* Assets.xcassets in Resources */,
+				2BF3F9C81E364A5200044434 /* gifAssets in Resources */,
 				2BF3F97F1E356A8700044434 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,9 +180,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BF3F9931E356D9F00044434 /* DesignCollectionViewCell.m in Sources */,
 				2BF3F97C1E356A8700044434 /* ViewController.m in Sources */,
 				2BF3F9791E356A8700044434 /* AppDelegate.m in Sources */,
+				2BF3F9BF1E36429800044434 /* GifsCollectionViewCell.m in Sources */,
+				2BF3F9901E356ABD00044434 /* DesignViewController.m in Sources */,
 				2BF3F9761E356A8700044434 /* main.m in Sources */,
+				2BF3F98D1E356AA700044434 /* GifsViewController.m in Sources */,
+				2BF3F9B81E3636F200044434 /* UIImage+animatedGIF.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
